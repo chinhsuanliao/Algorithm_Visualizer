@@ -1,0 +1,75 @@
+.code-block {
+    position: absolute;
+    overflow-y: auto;
+    top: 700px;
+    left: 380px;
+    max-height: 300px;
+    width: 460px;
+}
+
+select {
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: #161515;
+    color: white;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%208%208%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M1%202.5L4%205.5L7%202.5H1z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+select:focus {
+    outline: none;
+    border: none;
+}
+
+select option {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    position: absolute;
+    top: 6px;
+    right: 0;
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #0c7587;
+    color: white;
+    border: none;
+}
+
+pre {
+    background-color: #161515;
+    font-size: 16px;
+    padding: 20px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 260px;
+    /* 新增 */
+}
+
+pre[class*="language-"] {
+    color: rgb(235, 231, 231);
+    text-shadow: none;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #161515;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+}
